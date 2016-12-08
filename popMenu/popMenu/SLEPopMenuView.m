@@ -150,12 +150,8 @@ static NSString *SLEPopMenuCellID = @"SLEPopMenuCell";
 
     if (indexPath.row == 0) {
         
-//        NSLog(@"点击了第一行");
-        if ([self respondsToSelector:self.selector]) {
-            
-//            [self selector];
-            NSLog(@"点击了第二行");
-        }
+        NSLog(@"点击了第一行");
+
     }else if(indexPath.row == 1){
     
         NSLog(@"点击了第二行");
